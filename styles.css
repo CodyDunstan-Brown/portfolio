@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.header {
+  background-color: #FFCA5D;
+  height: 100px;
+/*  border-bottom: 6px solid #323746; */
+}
+
+.nav {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right:auto;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+
+
+}
+
+.logo {
+  float: left;
+  font-size: 2.3rem;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2D2F3B;
+  font-style: italic;
+}
+
+.links {
+  float: right;
+  margin-top: 40px;
+  font-size: 0.95rem;
+  color: #2D2F3B;
+}
+
+.links a {
+  color: #2D2F3B;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.banner {
+  background-color: #2D2F3B;
+  text-align: center;
+  padding: 0;
+  height: 600px;
+}
+
+.about {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+}
+
+.about img {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.me {
+  background-color: #FFCA5D;
+  color: #2D2F3B;
+  font-style: italic;
+}
+
+.portfolio {
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+height: 850px;
+}
+
+ .text {
+ color: #2D2F3B;
+ background-color: #FFCA5D;
+ font-style: italic;
+
+}
+
+#d1, #d2, #d3 {
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+#d4, #d5, #d6 {
+  padding-top: 70px;
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    border: 1px; color: #000000;
+    background-color: #FFCA5D;
+}
+
+
+.col {
+  width: 300px;
+  float: left;
+  margin: 0 10px;
+  height: 300px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.head {
+background-color: #FFCA5D;
+  color: #2D2F3B;
+font-style: italic;
+
+}
+
+@media screen and (max-width: 610px) {
+.logo{
+  float: none;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+}
+.links {
+  float: none;
+  margin-top: 0;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 960px;
+
+}
